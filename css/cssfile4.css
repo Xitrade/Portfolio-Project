@@ -63,7 +63,7 @@ a {
 }
 
 .nav {
-  background: darkred;
+  background: darkgreen;
   color: #fff;
   display:-webkit-flex;
   display:flex;
@@ -72,7 +72,7 @@ a {
 /*logo background*/
 .nav .logo {
   width: 150px;
-  background: darkred;
+  background: darkgreen;
   text-align: center;
 }
 
@@ -103,7 +103,7 @@ a {
 
 /*color when poitner is over the selection*/
 .nav ul li:hover {
-  background: darkred;
+  background: darkgreen;
   transition:All .5s ease;
   -webkit-transition:All .5s ease;
   -moz-transition:All .5s ease;
@@ -121,7 +121,7 @@ a {
 
 .nav .menub {
   width: 60px;
-  background: darkred;
+  background: darkgreen;
 }
 
 h1.opening {
@@ -181,7 +181,7 @@ Footer
 }
 
 .footer ul.social {
-  background: blue;
+  background: darkgreen;
 }
 
 .footer ul.social li {
@@ -198,7 +198,7 @@ Footer
 }
 
 .footer ul.social li:hover {
-  background: darkblue;
+  background: darkgreen;
   transition:All .5s ease;
   -webkit-transition:All .5s ease;
   -moz-transition:All .5s ease;
