@@ -141,7 +141,7 @@ h1.opening {
   border-right: 1px solid #9f9f9f;
   padding: 10px;
 }
-
+/*
 .sidebar {
   /*-webkit-flex:1;
   flex:1;*/
@@ -149,14 +149,14 @@ h1.opening {
   display:-webkit-flex;
   display:flex;
   /*-webkit-flex-direction: column;
-  flex-direction: column;*/
+  flex-direction: column;
 }
 
 .sidebar .block {
   padding: 5px 0;
   border-bottom: 1px solid #9f9f9f;
 }
-
+*/
 
 
 
