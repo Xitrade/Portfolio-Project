@@ -1,16 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900);
 
-/* Safari >=1.1, Opera >=9.5, IE9 *
-::selection {
-  background: #eb1d47;
-  color: #fff;
-}
-/* Firefox >=1 
-::-moz-selection {
-  background: #eb1d47;
-  color: #fff;
-}
-*/
 * {
   margin: 0;
   padding: 0;
@@ -22,7 +11,7 @@ body {
   padding: 0;
   font-family: 'Source Sans Pro', Helvetica, arial, sans-serif;
   padding-bottom: 20px;
-  background: url();
+  background: url(http://desktopict.org/wp-content/uploads/2014/03/black-background-wallpaper-7.jpg);
   background-size: 100% 100%;
   background-attachment:fixed;
   background-repeat: no-repeat;
@@ -131,7 +120,7 @@ h1.opening {
 
 /*image for the background*/
 .header-img {
-  background: url(http://www.wallpaperup.com/uploads/wallpapers/2012/08/04/8673/c9401ba16d86d1c2fbb1e73d00afd5d0.jpg);
+  background: url(http://www.iptechblog.com/wp-content/uploads/sites/113/2013/11/red-telephone.jpg);
   background-size: cover;
   background-position: center 80%;
   width: 100%;

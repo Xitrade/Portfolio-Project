@@ -1,28 +1,18 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900);
 
-/* Safari >=1.1, Opera >=9.5, IE9 *
-::selection {
-  background: #eb1d47;
-  color: #fff;
-}
-/* Firefox >=1 
-::-moz-selection {
-  background: #eb1d47;
-  color: #fff;
-}
-*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* For the body of the webpage */
 body {
   margin: 0;
   padding: 0;
   font-family: 'Source Sans Pro', Helvetica, arial, sans-serif;
   padding-bottom: 20px;
-  background: url();
+  background: url(http://desktopict.org/wp-content/uploads/2014/03/black-background-wallpaper-7.jpg);
   background-size: 100% 100%;
   background-attachment:fixed;
   background-repeat: no-repeat;
@@ -44,6 +34,7 @@ h2 {
   font-weight: 300;
 }
 
+/* Heading three*/
 h3 {
   margin: 5px 0;
   font-size: 20px;
@@ -129,7 +120,7 @@ h1.opening {
   margin: 20px 0;
 }
 
-/*image for the background*/
+/*image for the body*/
 .header-img {
   background: url(http://www.wallpaperup.com/uploads/wallpapers/2012/08/04/8673/c9401ba16d86d1c2fbb1e73d00afd5d0.jpg);
   background-size: cover;
@@ -153,14 +144,13 @@ h1.opening {
   padding: 10px;
 }
 
+/* For the side bar that should appear in the page*/
 .sidebar {
-  /*-webkit-flex:1;
-  flex:1;*/
+  
   padding: 10px;
   display:-webkit-flex;
   display:flex;
-  /*-webkit-flex-direction: column;
-  flex-direction: column;*/
+  
 }
 
 .sidebar .block {
@@ -179,11 +169,12 @@ Footer
   color: #fff;
   margin-top: 60px;
 }
-
+/* color for the social media links*/
 .footer ul.social {
   background: darkblue;
 }
 
+/* displays the actual links*/
 .footer ul.social li {
   display: inline-block;
   padding: 20px 10px;
@@ -196,6 +187,8 @@ Footer
   flex:1;
   text-align: center;
 }
+
+/* when cursor is hovering over the links it will *ahem* change color*/
 
 .footer ul.social li:hover {
   background: darkblue;
@@ -300,6 +293,7 @@ Footer
   }
 }
 
+/* size of the media */
 @media screen and (min-width:1200px) {
   .container {
     margin: 60px auto;
