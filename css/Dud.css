@@ -1,0 +1,45 @@
+#menu{
+  display: inline-block;
+}
+#container{
+  vertical-align: top;
+  margin: 20px;
+  color: #999;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #aaa;
+}
+
+#menu-btn{
+  cursor: pointer;
+  margin: 20px 0 0 20px;
+}
+
+#menu-list{
+  padding: 20px;
+  margin: 5px 0 0 0;
+  position: absolute;
+  background: #e2e2e2;
+  display: none;
+}
+
+#menu-btn.open + #menu-list{
+  display: block;
+}
+
+.menu-item{
+list-style: none;
+border: 0;
+padding: 15px 0;
+font-size: 16px;
+font-family: Arial, Helvetica, sans-serif;
+color: #2B2B2B;
+}
+
+a{
+  color: #57B6FF;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
