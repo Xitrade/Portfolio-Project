@@ -1,16 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900);
 
-/* Safari >=1.1, Opera >=9.5, IE9 *
-::selection {
-  background: #eb1d47;
-  color: #fff;
-}
-/* Firefox >=1 
-::-moz-selection {
-  background: #eb1d47;
-  color: #fff;
-}
-*/
 * {
   margin: 0;
   padding: 0;
@@ -103,7 +92,7 @@ a {
 
 /*color when poitner is over the selection*/
 .nav ul li:hover {
-  background: red;
+  background: darkred;
   transition:All .5s ease;
   -webkit-transition:All .5s ease;
   -moz-transition:All .5s ease;
@@ -208,11 +197,11 @@ Footer
 .footer ul.social li a {
   color: #fff;
 }
-
+/*
 .footer ul.social li:hover a {
   border-bottom: 1px solid #eb1d47;
 }
-
+*/
 .footer .copy {
   text-align: center;
   padding-top: 20px;
@@ -270,7 +259,7 @@ Footer
     -webkit-flex:3;
     flex:3;
   }
-
+/*
   .sidebar {
     -webkit-flex:1;
     flex:1;
@@ -280,7 +269,7 @@ Footer
     flex-direction: column;
   }
 }
-
+*/
 @media screen and (min-width:960px) {
   .footer {
     display:-webkit-flex;
