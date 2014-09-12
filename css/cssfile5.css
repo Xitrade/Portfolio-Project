@@ -6,13 +6,12 @@
   box-sizing: border-box;
 }
 
-/* For the body of the webpage */
 body {
   margin: 0;
   padding: 0;
   font-family: 'Source Sans Pro', Helvetica, arial, sans-serif;
   padding-bottom: 20px;
-  background: url(http://www.hdwallpapers.in/walls/colorful_abstract_1080p-HD.jpg);
+  background: url(http://1.bp.blogspot.com/-R6q6KGLberY/TpPhBjgaXwI/AAAAAAAAB0Y/Yy8xDsToBvk/s1600/1440x900_zixpk_hd_wallpaper_215.jpg);
   background-size: 100% 100%;
   background-attachment:fixed;
   background-repeat: no-repeat;
@@ -34,7 +33,6 @@ h2 {
   font-weight: 300;
 }
 
-/* Heading three*/
 h3 {
   margin: 5px 0;
   font-size: 20px;
@@ -54,7 +52,7 @@ a {
 }
 
 .nav {
-  background: blue;
+  background: black;
   color: #fff;
   display:-webkit-flex;
   display:flex;
@@ -63,7 +61,7 @@ a {
 /*logo background*/
 .nav .logo {
   width: 150px;
-  background: blue;
+  background: black;
   text-align: center;
 }
 
@@ -94,7 +92,7 @@ a {
 
 /*color when poitner is over the selection*/
 .nav ul li:hover {
-  background: darkblue;
+  background: grey;
   transition:All .5s ease;
   -webkit-transition:All .5s ease;
   -moz-transition:All .5s ease;
@@ -112,7 +110,7 @@ a {
 
 .nav .menub {
   width: 60px;
-  background: blue;
+  background: black;
 }
 
 h1.opening {
@@ -120,9 +118,9 @@ h1.opening {
   margin: 20px 0;
 }
 
-/*image for the body*/
+/*image for the background*/
 .header-img {
-  background: url(http://www.99hdwallpaper.com/abstract/wallpapers/abstract-background-wallpapers.jpg);
+  background: url(http://www.iptechblog.com/wp-content/uploads/sites/113/2013/11/red-telephone.jpg);
   background-size: cover;
   background-position: center 80%;
   width: 100%;
@@ -144,13 +142,14 @@ h1.opening {
   padding: 10px;
 }
 
-/* For the side bar that should appear in the page*/
 .sidebar {
-  
+  /*-webkit-flex:1;
+  flex:1;*/
   padding: 10px;
   display:-webkit-flex;
   display:flex;
-  
+  /*-webkit-flex-direction: column;
+  flex-direction: column;*/
 }
 
 .sidebar .block {
@@ -165,16 +164,15 @@ h1.opening {
 Footer
 *****************/
 .footer {
-  background: #6b0d20;
+  background: grey;
   color: #fff;
   margin-top: 60px;
 }
-/* color for the social media links*/
+
 .footer ul.social {
-  background: darkblue;
+  background: grey;
 }
 
-/* displays the actual links*/
 .footer ul.social li {
   display: inline-block;
   padding: 20px 10px;
@@ -188,10 +186,8 @@ Footer
   text-align: center;
 }
 
-/* when cursor is hovering over the links it will *ahem* change color*/
-
 .footer ul.social li:hover {
-  background: darkblue;
+  background: black;
   transition:All .5s ease;
   -webkit-transition:All .5s ease;
   -moz-transition:All .5s ease;
@@ -293,7 +289,6 @@ Footer
   }
 }
 
-/* size of the media */
 @media screen and (min-width:1200px) {
   .container {
     margin: 60px auto;
