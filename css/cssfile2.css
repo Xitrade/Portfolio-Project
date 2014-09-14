@@ -52,7 +52,7 @@ a {
 }
 
 .nav {
-  background: darkred;
+  background: red;
   color: #fff;
   display:-webkit-flex;
   display:flex;
@@ -61,7 +61,7 @@ a {
 /*logo background*/
 .nav .logo {
   width: 150px;
-  background: darkred;
+  background: red;
   text-align: center;
 }
 
@@ -110,7 +110,7 @@ a {
 
 .nav .menub {
   width: 60px;
-  background: darkred;
+  background: red;
 }
 
 h1.opening {
