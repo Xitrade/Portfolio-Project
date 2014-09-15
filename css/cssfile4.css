@@ -152,10 +152,10 @@ h1.opening {
   flex-direction: column;*/
 }
 
-.sidebar .block {
+/*.sidebar .block {
   padding: 5px 0;
   border-bottom: 1px solid #9f9f9f;
-}
+}*/
 
 
 
@@ -170,7 +170,7 @@ Footer
 }
 
 .footer ul.social {
-  background: darkgreen;
+  background: green;
 }
 
 .footer ul.social li {
