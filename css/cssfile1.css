@@ -274,6 +274,7 @@ Footer
   }
 }
 
+/* media for the social tab */
 @media screen and (min-width:960px) {
   .footer {
     display:-webkit-flex;
@@ -297,5 +298,17 @@ Footer
 @media screen and (min-width:1200px) {
   .container {
     margin: 60px auto;
+  }
+}
+
+@media screen and (min-width: 959px) {
+  .container{
+    width: 100%; 
+  }
+  .left-column{
+    width: 70%;
+  }
+  .right-column{
+    width: 30%;
   }
 }
