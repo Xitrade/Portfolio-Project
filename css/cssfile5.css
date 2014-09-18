@@ -92,7 +92,7 @@ a {
 
 /*color when poitner is over the selection*/
 .nav ul li:hover {
-  background: grey;
+  background: #303030;
   transition:All .5s ease;
   -webkit-transition:All .5s ease;
   -moz-transition:All .5s ease;
