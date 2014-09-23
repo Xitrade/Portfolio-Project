@@ -247,6 +247,9 @@ Footer
   border-bottom: 1px solid #eb1d47;
 }
 
+iframe{
+  width: 100%;
+}
 
 /*Media*/
 @media screen and (min-width:800px) {
