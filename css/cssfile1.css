@@ -43,7 +43,7 @@ h3 {
 }
 
 a {
-  color: #000;
+  color: grey;
   text-decoration: none;
 }
 /*background for body*/
@@ -55,7 +55,7 @@ a {
 
 .nav {
   background: blue;
-  color: #fff;
+  color: grey;
   display:-webkit-flex;
   display:flex;
 }
@@ -107,7 +107,7 @@ a {
 }
 
 .nav ul li:hover a {
-  border-bottom: 1px solid #eb1d47;
+  border-bottom: 1px solid #eb\ 1d47;
 }
 
 .nav .menub {
